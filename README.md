@@ -55,13 +55,14 @@ Visit the [release page](https://github.com/ZacharyL2/KeyEcho/releases) to downl
 ## 🧑‍💻 Development
 
 ```bash
-$ git clone git@github.com:ZacharyL2/KeyEcho.git
-$ cd KeyEcho
-$ pnpm install
+git clone git@github.com:ZacharyL2/KeyEcho.git
+cd KeyEcho
+pnpm install
 
 # Dev
-$ pnpm dev
+pnpm dev
 
 # Build
-$ pnpm build
+pnpm run web:build
+pnpm build
 ```
